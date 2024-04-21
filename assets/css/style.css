@@ -43,12 +43,23 @@ section {
     height: 60px;
 }
 
+.maria-right {
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
 .maria-right ul {
     list-style: none;
     color: #bec1bb;
     display: flex;
+    margin-bottom: 0;
+    padding: 0;
 }
 
+.maria-right li {
+    margin: 3px;
+}
 
 .maria-left {
     display: flex;
@@ -56,6 +67,21 @@ section {
     font-weight: 300;
     font-style: normal;
     font-size: small;
+    align-items: center;
+}
+
+.maria-img {
+    width: 50px;
+    padding: 10px;
+}
+
+.maria-left p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.letra-clara {
+    font-weight: 100;
 }
 
 .maria-left img {
@@ -76,7 +102,6 @@ section {
     background-color: #fff; 
     align-items: center;
     height: 70px;
-    justify-content: center;
 }
 
 .users-container img {
@@ -100,6 +125,7 @@ section {
     margin: 20px;
     background-color: #a491d2;
     border: transparent;
+    width: 150px;
 }
 
 .button button:hover {
@@ -111,4 +137,10 @@ section {
     font-weight: 400;
     font-size: small;
     font-style: normal;
+}
+
+
+.user-img {
+    width: 50px;
+    padding: 10px;
 }
